@@ -1,0 +1,15 @@
+{
+  "name": "TennisKheloSeekho",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": "https://github.com/shubhamsapra97/TennisKheloSeekho.git",
+  "author": "Shubham Sapra <shubham.sapra97@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "rxjs": "^7.8.1"
+  },
+  "scripts": {
+    "start": "node ./src/main.js"
+  }
+}
