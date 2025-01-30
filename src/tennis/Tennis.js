@@ -40,7 +40,7 @@ export class Tennis {
     console.log("UPDATED_SCORES =>", scorePlayer1, scorePlayer2)
 
     if (
-      (scorePlayer1 >=4 || scorePlayer2 >= 4) &&
+      Math.max(scorePlayer1, scorePlayer2) >= 4 &&
       Math.abs(scorePlayer1 - scorePlayer2) >= 2
     ) {
       return `player${pointWonByPlayer}`

@@ -7,9 +7,6 @@ const initTennisGame = () => {
     const eventStream = new EventStream()
 
     eventProcessor.startProcessing();
-    setTimeout(() => {
-        eventStream.unsubscribe();
-    }, 5 * 60000);
 }
 
 initTennisGame();
